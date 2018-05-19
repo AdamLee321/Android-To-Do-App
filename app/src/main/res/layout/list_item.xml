@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:text="@string/item_name"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/checkMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_check_green_24dp"
+        />
+
+</RelativeLayout>
